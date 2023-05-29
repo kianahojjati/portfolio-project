@@ -116,3 +116,19 @@ p {
     text-align: center;
   }
 }
+
+.content-container {
+  padding: 160px 20px;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
